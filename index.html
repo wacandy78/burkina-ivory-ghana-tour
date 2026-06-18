@@ -84,10 +84,6 @@
   .hero-meta-row > div .meta{margin-bottom:8px}
   .hero-meta-row > div .val{font-family:var(--serif);font-size:32px;font-weight:400;line-height:1;color:var(--paper)}
   .hero-meta-row > div .val em{font-style:italic;color:var(--accent)}
-  .scroll-hint{position:absolute;left:48px;bottom:24px;z-index:3;font-family:var(--sans);font-size:10px;text-transform:uppercase;letter-spacing:0.3em;color:var(--muted);display:flex;align-items:center;gap:12px;writing-mode:vertical-rl;transform:rotate(180deg)}
-  .scroll-hint::after{content:"";width:1px;height:48px;background:var(--accent);animation:scrollLine 2s ease-in-out infinite}
-  @keyframes scrollLine{0%,100%{transform:scaleY(0.4);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}}
-  @media(max-width:768px){.scroll-hint{display:none}}
 
   section{padding:140px 48px;position:relative}
   @media(max-width:768px){section{padding:80px 24px}}
@@ -141,7 +137,6 @@
   .itinerary .desc.lead{color:rgba(26,24,20,0.72)}
   .itinerary .h2 em{color:var(--accent-deep)}
 
-  .country-block{margin-bottom:0}
   .country-tag{display:flex;align-items:center;gap:16px;padding:32px 0 24px;margin-top:24px}
   .country-tag:first-child{margin-top:0}
   .country-tag .flag-dot{width:10px;height:10px;border-radius:50%;background:var(--accent-deep);flex-shrink:0}
@@ -311,7 +306,7 @@
           <div class="country"><span class="flag">●</span>BURKINA FASO</div>
           <h3 class="h3">瓦加杜古</h3>
         </div>
-        <p class="city-desc">非洲電影之都。泥磚大教堂、聖鱷魚池、桑卡拉紀念館,以及只有當地人帶得進去的傳統市集與藝術村——這裡是這趟旅程的起點與靈魂,五天細細走過。</p>
+        <p class="city-desc">非洲電影之都。泥磚大教堂、聖鱷魚池、革命家紀念館,以及只有當地人帶得進去的傳統市集與藝術村——這裡是這趟旅程的起點與靈魂,五天細細走過。</p>
       </div>
       <div class="city reveal">
         <div class="city-num">II.</div>
@@ -319,7 +314,7 @@
           <div class="country"><span class="flag">●</span>CÔTE D'IVOIRE</div>
           <h3 class="h3">阿西尼海邊渡假村</h3>
         </div>
-        <p class="city-desc">大西洋與潟湖之間的細長沙洲,世界遺產大巴薩姆途經,兩晚海邊渡假村的悠閒。潟湖生態導覽、露天遊船、漁村散步——專屬於海洋的停頓。</p>
+        <p class="city-desc">大西洋與潟湖之間的細長沙洲,世界遺產殖民小鎮途經,兩晚海邊渡假村的悠閒。潟湖生態導覽、露天遊船、漁村散步——專屬於海洋的停頓。</p>
       </div>
       <div class="city reveal">
         <div class="city-num">III.</div>
@@ -327,15 +322,15 @@
           <div class="country"><span class="flag">●</span>CÔTE D'IVOIRE</div>
           <h3 class="h3">阿比讓 × 亞穆蘇克羅</h3>
         </div>
-        <p class="city-desc">西非經濟樞紐與政治首都的雙城記。可可豆農場、CAVA 手工藝品市集、藍色清真寺、聖保祿主教座堂,以及金氏世界紀錄認證、全球最大的天主教教堂——和平之后聖殿。</p>
+        <p class="city-desc">西非經濟樞紐與政治首都的雙城記。可可豆農場、手工藝品市集、藍色清真寺、現代主義主教座堂,以及金氏世界紀錄認證、全球最大的天主教教堂。</p>
       </div>
       <div class="city reveal">
         <div class="city-num">IV.</div>
         <div class="city-info">
           <div class="country"><span class="flag">●</span>GHANA</div>
-          <h3 class="h3">阿克拉 × 莫宗瑞亞 × 開普海岸</h3>
+          <h3 class="h3">阿克拉 × 北部雨林 × 開普海岸</h3>
         </div>
-        <p class="city-desc">迦納篇:黑星廣場與國家博物館的城市記憶,莫宗瑞亞國家公園的雨林嚮導探索,再到艾爾米納堡與開普海岸的世界遺產奴隸堡,以及卡庫姆國家公園的雨林吊橋。</p>
+        <p class="city-desc">迦納篇:獨立廣場與國家博物館的城市記憶,北部國家公園的雨林嚮導探索,再到世界遺產奴隸堡海岸,以及雨林國家公園的樹冠吊橋。</p>
       </div>
     </div>
   </div>
@@ -404,22 +399,22 @@
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>02</em></div><span class="label">抵達</span></div>
         <div class="day-body">
-          <div class="loc">瓦加杜古 · OUA</div>
+          <div class="loc">瓦加杜古</div>
           <h4>抵達布吉納法索</h4>
           <p>抵達瓦加杜古機場,當地接機後直接入住飯店休息,調整時差,迎接接下來的探索。</p>
-          <div class="day-foot"><div class="item"><span class="lbl">住宿</span>Azalai Hotel 或同等級 zind nabba、Sonia 飯店</div></div>
+          <div class="day-foot"><div class="item"><span class="lbl">住宿</span>市區四星級飯店</div></div>
         </div>
       </div>
 
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>03</em></div><span class="label">雕塑</span></div>
         <div class="day-body">
-          <div class="loc">拉翁戈花崗岩雕塑研討會 · 桑卡拉紀念館</div>
+          <div class="loc">花崗岩雕塑園區 · 革命家紀念館</div>
           <h4>石頭與革命家</h4>
-          <p>上午前往當地超市,再走訪拉翁戈花崗岩雕塑研討會;午後到桑卡拉紀念館,認識被稱為「非洲切·格瓦拉」的革命家,接著逛當地最大的傳統市場。</p>
+          <p>上午前往當地超市,再走訪花崗岩雕塑園區;午後到革命家紀念館,認識被稱為「非洲切·格瓦拉」的革命家,接著逛當地最大的傳統市場。</p>
           <div class="day-foot">
-            <div class="item"><span class="lbl">午餐</span>Tropicalia 非洲歐洲自助餐</div>
-            <div class="item"><span class="lbl">晚餐</span>Local grill ouaga 2000 烤肉庭院餐</div>
+            <div class="item"><span class="lbl">午餐</span>非洲歐式自助餐廳</div>
+            <div class="item"><span class="lbl">晚餐</span>當地烤肉庭院餐廳</div>
           </div>
         </div>
       </div>
@@ -427,12 +422,12 @@
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>04</em></div><span class="label">蠟染</span></div>
         <div class="day-body">
-          <div class="loc">非洲部落博物館 · 手工藝術村 · 瓦加杜古天主教教堂</div>
+          <div class="loc">戶外部落博物館 · 手工藝術村 · 天主教教堂</div>
           <h4>泥磚與蠟染布</h4>
-          <p>參觀戶外非洲部落博物館,再到當地手工藝術村體驗蠟染布製作;傍晚造訪以泥磚工法建造的瓦加杜古天主教教堂——非洲建築美學的代表作。</p>
+          <p>參觀戶外非洲部落博物館,再到當地手工藝術村體驗蠟染布製作;傍晚造訪以泥磚工法建造的天主教教堂——非洲建築美學的代表作。</p>
           <div class="day-foot">
-            <div class="item"><span class="lbl">午餐</span>Assanka Buffet 非洲自助餐</div>
-            <div class="item"><span class="lbl">晚餐</span>Chez Simon L'experience 西式</div>
+            <div class="item"><span class="lbl">午餐</span>非洲自助餐廳</div>
+            <div class="item"><span class="lbl">晚餐</span>西式餐廳</div>
           </div>
         </div>
       </div>
@@ -440,12 +435,12 @@
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>05</em></div><span class="label">聖鱷</span></div>
         <div class="day-body">
-          <div class="loc">神聖鱷魚池 · 渡假村鴕鳥 · 國家英雄紀念碑</div>
+          <div class="loc">神聖鱷魚池 · 渡假村 · 國家英雄紀念碑</div>
           <h4>聖鱷與駝鳥</h4>
           <p>走進神聖鱷魚池體驗餵食,再到渡假村看鴕鳥、享用午餐;午後到當地超市感受日常購物,接著前往國家英雄紀念碑拍照打卡。</p>
           <div class="day-foot">
-            <div class="item"><span class="lbl">午餐</span>渡假村內 Tintilou 西非式料理</div>
-            <div class="item"><span class="lbl">晚餐</span>香格里拉中式料理</div>
+            <div class="item"><span class="lbl">午餐</span>渡假村內西非式料理</div>
+            <div class="item"><span class="lbl">晚餐</span>中式餐廳</div>
           </div>
         </div>
       </div>
@@ -461,12 +456,12 @@
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>06</em></div><span class="label">跨國</span></div>
         <div class="day-body">
-          <div class="loc">OUA → ABJ → Assinie</div>
+          <div class="loc">瓦加杜古 → 阿比讓 → 阿西尼</div>
           <h4>飛越國界,世界遺產途經</h4>
-          <p>飛抵象牙海岸阿比讓機場,途經世界遺產大巴薩姆小鎮,走過法國殖民時期遺留的褪色建築;抵達潟湖環繞的海邊渡假村。</p>
+          <p>飛抵象牙海岸阿比讓機場,途經世界遺產殖民小鎮,走過法國殖民時期遺留的褪色建築;抵達潟湖環繞的海邊渡假村。</p>
           <div class="day-foot">
-            <div class="item"><span class="lbl">午餐</span>La case Bleue 當地料理</div>
-            <div class="item"><span class="lbl">住宿</span>La Maison d'akoula 海邊渡假村</div>
+            <div class="item"><span class="lbl">午餐</span>當地特色餐廳</div>
+            <div class="item"><span class="lbl">住宿</span>海邊渡假村</div>
           </div>
         </div>
       </div>
@@ -474,12 +469,12 @@
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>07</em></div><span class="label">潟湖</span></div>
         <div class="day-body">
-          <div class="loc">潟湖生態導覽 · 服裝博物館 · 加納梅特之家</div>
+          <div class="loc">潟湖生態導覽 · 服裝博物館</div>
           <h4>潟湖的時間</h4>
-          <p>整日潟湖生態導覽,搭乘露天遊船一小時穿梭潮間帶與漁村;午後參觀服裝博物館與加納梅特之家,感受當地工藝與生活美學。</p>
+          <p>整日潟湖生態導覽,搭乘露天遊船一小時穿梭潮間帶與漁村;午後參觀當地服裝博物館與特色民居,感受當地工藝與生活美學。</p>
           <div class="day-foot">
-            <div class="item"><span class="lbl">午餐</span>Mossou'o'calm 河景餐廳</div>
-            <div class="item"><span class="lbl">晚餐</span>Mamia Lagoon 非式料理</div>
+            <div class="item"><span class="lbl">午餐</span>河景餐廳</div>
+            <div class="item"><span class="lbl">晚餐</span>非式料理餐廳</div>
           </div>
         </div>
       </div>
@@ -491,22 +486,22 @@
           <h4>從果實到巧克力</h4>
           <p>退房後前往可可豆農場,親手體驗從採收到巧克力製作的完整過程;傍晚回市區超市購物,為晚餐挑選食材。</p>
           <div class="day-foot">
-            <div class="item"><span class="lbl">晚餐</span>Atmosphere 亞洲 fusion 料理</div>
-            <div class="item"><span class="lbl">住宿</span>Baobab Onomo 或同等級 Pullman、Novotel Plateau、Byblos</div>
+            <div class="item"><span class="lbl">晚餐</span>亞洲 fusion 餐廳</div>
+            <div class="item"><span class="lbl">住宿</span>市區四星級飯店</div>
           </div>
-          <span class="day-note">除夕出發班期可改吃中國餐廳</span>
+          <span class="day-note">除夕出發班期可改吃中式餐廳</span>
         </div>
       </div>
 
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>09</em></div><span class="label">市集</span></div>
         <div class="day-body">
-          <div class="loc">傳統市集 · 藍色清真寺 · 聖保祿主教座堂 · CAVA</div>
+          <div class="loc">傳統市集 · 藍色清真寺 · 主教座堂 · 手工藝品市集</div>
           <h4>面具與十字架</h4>
-          <p>走入傳統市集 Koumassi 感受最真實的西非日常;參觀湛藍圓頂的藍色清真寺,再到造型現代主義的聖保祿主教座堂;午後到 CAVA 手工藝品市集挑選非洲面具與雕塑。</p>
+          <p>走入傳統市集感受最真實的西非日常;參觀湛藍圓頂的藍色清真寺,再到造型現代主義的主教座堂;午後到手工藝品市集挑選非洲面具與雕塑。</p>
           <div class="day-foot">
-            <div class="item"><span class="lbl">午餐</span>Chez Tantie Alice 當地炸物餐</div>
-            <div class="item"><span class="lbl">晚餐</span>Le mechoui 黎巴嫩料理</div>
+            <div class="item"><span class="lbl">午餐</span>當地炸物小館</div>
+            <div class="item"><span class="lbl">晚餐</span>黎巴嫩料理餐廳</div>
           </div>
         </div>
       </div>
@@ -514,13 +509,13 @@
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>10</em></div><span class="label">首都</span></div>
         <div class="day-body">
-          <div class="loc">Yamoussoukro 雅穆索戈 · 國會 · 理工大學</div>
+          <div class="loc">政治首都 · 國會 · 理工大學</div>
           <h4>政治首都的脈動</h4>
-          <p>驅車三至四小時前往政治首都雅穆索戈,參觀國會、象牙海岸理工大學,以及新蓋的非洲盃足球場,感受國家發展的另一面。</p>
+          <p>驅車三至四小時前往政治首都,參觀國會、理工大學,以及新蓋的非洲盃足球場,感受國家發展的另一面。</p>
           <div class="day-foot">
-            <div class="item"><span class="lbl">午餐</span>Domaine Eden 野味餐廳</div>
-            <div class="item"><span class="lbl">晚餐</span>Chez Mario 義大利餐廳</div>
-            <div class="item"><span class="lbl">住宿</span>Hotel President 總統大飯店</div>
+            <div class="item"><span class="lbl">午餐</span>野味料理餐廳</div>
+            <div class="item"><span class="lbl">晚餐</span>義大利餐廳</div>
+            <div class="item"><span class="lbl">住宿</span>地標大飯店</div>
           </div>
         </div>
       </div>
@@ -530,11 +525,11 @@
         <div class="day-body">
           <div class="loc">和平之后聖殿 · 返回阿比讓</div>
           <h4>世界最大的教堂</h4>
-          <p>參觀金氏世界紀錄認證的全球最大天主教教堂——和平之后聖殿,雄偉穹頂與廣場氣勢震撼;午餐後驅車三小時返回阿比讓市區。</p>
+          <p>參觀金氏世界紀錄認證的全球最大天主教教堂,雄偉穹頂與廣場氣勢震撼;午餐後驅車三小時返回阿比讓市區。</p>
           <div class="day-foot">
-            <div class="item"><span class="lbl">午餐</span>Bolikro 當地料理</div>
-            <div class="item"><span class="lbl">晚餐</span>Le Debarcadere 湖岸龍蝦餐</div>
-            <div class="item"><span class="lbl">住宿</span>Baobab Onomo 或同等級 Pullman、Novotel Plateau、Byblos</div>
+            <div class="item"><span class="lbl">午餐</span>當地特色料理</div>
+            <div class="item"><span class="lbl">晚餐</span>湖岸龍蝦餐廳</div>
+            <div class="item"><span class="lbl">住宿</span>市區四星級飯店</div>
           </div>
         </div>
       </div>
@@ -542,12 +537,12 @@
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>12</em></div><span class="label">雨林</span></div>
         <div class="day-body">
-          <div class="loc">班科國家公園 · Banco</div>
+          <div class="loc">城市雨林公園</div>
           <h4>城市裡的綠肺</h4>
-          <p>走訪阿比讓近郊城市裡的熱帶雨林班科國家公園,在園內用餐,享受難得的雨林散步時光。</p>
+          <p>走訪阿比讓近郊城市裡的熱帶雨林公園,在園內用餐,享受難得的雨林散步時光。</p>
           <div class="day-foot">
-            <div class="item"><span class="lbl">晚餐</span>saakan 歐式料理</div>
-            <div class="item"><span class="lbl">住宿</span>Baobab Onomo 或同等級 Pullman、Novotel Plateau、Byblos</div>
+            <div class="item"><span class="lbl">晚餐</span>歐式料理餐廳</div>
+            <div class="item"><span class="lbl">住宿</span>市區四星級飯店</div>
           </div>
         </div>
       </div>
@@ -555,10 +550,10 @@
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>13</em></div><span class="label">跨國</span></div>
         <div class="day-body">
-          <div class="loc">ABJ → 阿克拉 · 迦納</div>
+          <div class="loc">阿比讓 → 阿克拉 · 迦納</div>
           <h4>飛越第二段國界</h4>
           <p>上午前往超市採購,中午抵達機場搭機飛往迦納,午餐由領隊給餐費讓客人自行於超市美食街選購,傍晚抵達飯店休息。</p>
-          <div class="day-foot"><div class="item"><span class="lbl">住宿</span>Tang Palace、African Regina、Pelican hotel</div></div>
+          <div class="day-foot"><div class="item"><span class="lbl">住宿</span>市區四星級飯店</div></div>
         </div>
       </div>
 
@@ -573,12 +568,12 @@
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>14</em></div><span class="label">城市</span></div>
         <div class="day-body">
-          <div class="loc">黑星廣場 · 迦納國家博物館 · 夸梅恩克魯瑪紀念公園</div>
-          <h4>黑星與獨立記憶</h4>
-          <p>走訪阿克拉的黑星廣場與迦納國家博物館,認識國家獨立的歷史脈絡;接著到夸梅恩克魯瑪紀念公園、馬科拉市場與阿克拉藝術中心,感受城市的多重面貌。</p>
+          <div class="loc">獨立廣場 · 國家博物館 · 紀念公園</div>
+          <h4>獨立與城市記憶</h4>
+          <p>走訪阿克拉的獨立廣場與國家博物館,認識國家獨立的歷史脈絡;接著到紀念公園、傳統市場與藝術中心,感受城市的多重面貌。</p>
           <div class="day-foot">
-            <div class="item"><span class="lbl">午餐</span>The Buka Restaurant, Osu</div>
-            <div class="item"><span class="lbl">晚餐</span>Sky Bar 25</div>
+            <div class="item"><span class="lbl">午餐</span>當地特色餐廳</div>
+            <div class="item"><span class="lbl">晚餐</span>頂樓酒吧餐廳</div>
           </div>
         </div>
       </div>
@@ -586,12 +581,12 @@
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>15</em></div><span class="label">雨林</span></div>
         <div class="day-body">
-          <div class="loc">莫宗瑞亞國家公園 · 迦納北部</div>
+          <div class="loc">北部國家公園</div>
           <h4>飛往北部雨林</h4>
-          <p>搭乘 13:00 的班機飛往迦納北部的莫宗瑞亞國家公園,進入這趟旅程最深入自然的一段。</p>
+          <p>搭乘午後班機飛往迦納北部的國家公園,進入這趟旅程最深入自然的一段。</p>
           <div class="day-foot">
             <div class="item"><span class="lbl">午餐</span>機上餐盒</div>
-            <div class="item"><span class="lbl">住宿</span>Zaina Lodge</div>
+            <div class="item"><span class="lbl">住宿</span>雨林莊園</div>
           </div>
         </div>
       </div>
@@ -599,22 +594,22 @@
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>16</em></div><span class="label">嚮導</span></div>
         <div class="day-body">
-          <div class="loc">Zaina Lodge · 森林探索</div>
+          <div class="loc">雨林莊園 · 森林探索</div>
           <h4>嚮導帶領的森林日</h4>
-          <p>由 Zaina Lodge 專屬嚮導帶領,深入森林探索莫宗瑞亞國家公園的野生動植物與生態,全日於園區內活動與用餐。</p>
-          <div class="day-foot"><div class="item"><span class="lbl">住宿</span>Zaina Lodge</div></div>
+          <p>由莊園專屬嚮導帶領,深入森林探索國家公園的野生動植物與生態,全日於園區內活動與用餐。</p>
+          <div class="day-foot"><div class="item"><span class="lbl">住宿</span>雨林莊園</div></div>
         </div>
       </div>
 
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>17</em></div><span class="label">夕陽</span></div>
         <div class="day-body">
-          <div class="loc">阿克拉市區 · 拉巴迪海灘</div>
+          <div class="loc">阿克拉市區 · 海灘</div>
           <h4>飛回市區看夕陽</h4>
-          <p>搭機飛回阿克拉市區,入住飯店稍作休息後,前往拉巴迪海灘欣賞大西洋夕陽,於海灘俱樂部享用晚餐。</p>
+          <p>搭機飛回阿克拉市區,入住飯店稍作休息後,前往海灘欣賞大西洋夕陽,於海灘俱樂部享用晚餐。</p>
           <div class="day-foot">
-            <div class="item"><span class="lbl">晚餐</span>Polo beach Club</div>
-            <div class="item"><span class="lbl">住宿</span>Tang Palace、African Regina、Pelican hotel</div>
+            <div class="item"><span class="lbl">晚餐</span>海灘俱樂部餐廳</div>
+            <div class="item"><span class="lbl">住宿</span>市區四星級飯店</div>
           </div>
         </div>
       </div>
@@ -622,13 +617,13 @@
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>18</em></div><span class="label">移動</span></div>
         <div class="day-body">
-          <div class="loc">藝術聯盟畫廊 · 前往 Elmina</div>
+          <div class="loc">當代藝術畫廊 · 前往開普海岸</div>
           <h4>畫廊與海岸公路</h4>
-          <p>參觀 Artists Alliance Gallery 藝術聯盟畫廊,認識迦納當代藝術;隨後展開四小時車程,前往海岸古城 Elmina,入住海濱渡假村。</p>
+          <p>參觀當代藝術畫廊,認識迦納當代藝術;隨後展開四小時車程,前往海岸古城,入住海濱渡假村。</p>
           <div class="day-foot">
-            <div class="item"><span class="lbl">午餐</span>The mix restaurant accra</div>
-            <div class="item"><span class="lbl">晚餐</span>lemon beach restaurant</div>
-            <div class="item"><span class="lbl">住宿</span>Lemon Beach resort</div>
+            <div class="item"><span class="lbl">午餐</span>當地特色餐廳</div>
+            <div class="item"><span class="lbl">晚餐</span>海濱餐廳</div>
+            <div class="item"><span class="lbl">住宿</span>海濱渡假村</div>
           </div>
         </div>
       </div>
@@ -636,13 +631,13 @@
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>19</em></div><span class="label">吊橋</span></div>
         <div class="day-body">
-          <div class="loc">卡庫姆國家公園 · Kakum National Park</div>
+          <div class="loc">雨林國家公園</div>
           <h4>雨林樹冠吊橋</h4>
-          <p>清晨集合,車程一小時抵達卡庫姆國家公園,走過著名的雨林樹冠吊橋,俯瞰整片熱帶雨林——西非生態旅遊最具代表性的一站。</p>
+          <p>清晨集合,車程一小時抵達雨林國家公園,走過著名的雨林樹冠吊橋,俯瞰整片熱帶雨林——西非生態旅遊最具代表性的一站。</p>
           <div class="day-foot">
             <div class="item"><span class="lbl">午餐</span>公園內餐盒</div>
-            <div class="item"><span class="lbl">晚餐</span>Anomansa Restaurant</div>
-            <div class="item"><span class="lbl">住宿</span>Lemon Beach resort</div>
+            <div class="item"><span class="lbl">晚餐</span>當地特色餐廳</div>
+            <div class="item"><span class="lbl">住宿</span>海濱渡假村</div>
           </div>
         </div>
       </div>
@@ -650,13 +645,13 @@
       <div class="day-row reveal">
         <div class="day-marker"><div class="num">Day <em>20</em></div><span class="label">遺產</span></div>
         <div class="day-body">
-          <div class="loc">Elmina Castle · 世界遺產 Cape Coast 奴隸堡</div>
+          <div class="loc">世界遺產奴隸堡群</div>
           <h4>奴隸貿易的歷史現場</h4>
-          <p>參觀 Elmina Castle 與世界遺產 Cape Coast 奴隸堡,直面西非奴隸貿易的沉重歷史;午後於海邊享用午餐、漫步漁村,再返回市區。</p>
+          <p>參觀世界遺產奴隸堡群,直面西非奴隸貿易的沉重歷史;午後於海邊享用午餐、漫步漁村,再返回市區。</p>
           <div class="day-foot">
-            <div class="item"><span class="lbl">午餐</span>Baobab House</div>
-            <div class="item"><span class="lbl">晚餐</span>Azmera</div>
-            <div class="item"><span class="lbl">住宿</span>Tang Palace、African Regina、Pelican hotel</div>
+            <div class="item"><span class="lbl">午餐</span>當地特色餐廳</div>
+            <div class="item"><span class="lbl">晚餐</span>當地特色餐廳</div>
+            <div class="item"><span class="lbl">住宿</span>市區四星級飯店</div>
           </div>
         </div>
       </div>
@@ -666,9 +661,9 @@
         <div class="day-body">
           <div class="loc">阿克拉 · 最後採買</div>
           <h4>巧克力,布料,與歸程</h4>
-          <p>行程最後一天,進行最後採買——巧克力、布料、手工藝品;午後於咖啡廳或飯店休息,晚餐後前往機場,搭乘 21:00 的班機,展開回程轉機。</p>
+          <p>行程最後一天,進行最後採買——巧克力、布料、手工藝品;午後於咖啡廳或飯店休息,晚餐後前往機場,展開回程轉機。</p>
           <div class="day-foot">
-            <div class="item"><span class="lbl">午餐</span>Buka</div>
+            <div class="item"><span class="lbl">午餐</span>當地特色餐廳</div>
             <div class="item"><span class="lbl">晚餐</span>機場餐盒</div>
           </div>
           <span class="day-note">19:00 辦理登機,21:00 起飛</span>
@@ -709,7 +704,7 @@
           <span>🇧🇫 BURKINA FASO</span>
           <span>Day 02 – 06 · <em>4 NIGHTS</em></span>
         </div>
-        <p>Azalai Hotel 或同等級 zind nabba、Sonia 飯店——西非旅程的第一段落腳處,穩定而舒適,鄰近市區主要景點。</p>
+        <p>市區四星級飯店——西非旅程的第一段落腳處,穩定而舒適,鄰近市區主要景點。</p>
       </div>
 
       <div class="stay reveal">
@@ -719,7 +714,7 @@
           <span>🇨🇮 CÔTE D'IVOIRE</span>
           <span>Day 06 – 08 · <em>2 NIGHTS</em></span>
         </div>
-        <p>La Maison d'akoula 海邊渡假村,潟湖與大西洋之間的私密角落,兩房相連,是行程中段最溫柔的停頓。</p>
+        <p>海邊渡假村,潟湖與大西洋之間的私密角落,兩房相連,是行程中段最溫柔的停頓。</p>
       </div>
 
       <div class="stay reveal">
@@ -729,17 +724,17 @@
           <span>🇨🇮 CÔTE D'IVOIRE</span>
           <span>Day 08 – 13 · <em>5 NIGHTS</em></span>
         </div>
-        <p>Baobab Onomo 或同等級 Pullman、Novotel Plateau、Byblos——西非經濟樞紐的核心地段,作為前往雅穆索戈與班科公園的據點。</p>
+        <p>市區商務四星級飯店——西非經濟樞紐的核心地段,作為前往政治首都與雨林公園的據點。</p>
       </div>
 
       <div class="stay reveal">
         <div class="stay-num">N° IV</div>
-        <h4>雅穆索戈 · 總統大飯店</h4>
+        <h4>政治首都 · 地標大飯店</h4>
         <div class="stay-meta">
           <span>🇨🇮 CÔTE D'IVOIRE</span>
           <span>Day 10 – 11 · <em>1 NIGHT</em></span>
         </div>
-        <p>Hotel President 總統大飯店,象牙海岸政治首都的代表性地標飯店,鄰近和平之后聖殿。</p>
+        <p>象牙海岸政治首都的代表性地標飯店,鄰近和平之后聖殿。</p>
       </div>
 
       <div class="stay reveal">
@@ -749,27 +744,27 @@
           <span>🇬🇭 GHANA</span>
           <span>Day 13 – 18 · <em>5 NIGHTS</em></span>
         </div>
-        <p>Tang Palace、African Regina、Pelican hotel——迦納篇的主要據點,往返黑星廣場、拉巴迪海灘與機場皆便利。</p>
+        <p>市區四星級飯店——迦納篇的主要據點,往返獨立廣場、海灘與機場皆便利。</p>
       </div>
 
       <div class="stay reveal">
         <div class="stay-num">N° VI</div>
-        <h4>莫宗瑞亞 · 雨林莊園</h4>
+        <h4>北部 · 雨林莊園</h4>
         <div class="stay-meta">
           <span>🇬🇭 GHANA</span>
           <span>Day 15 – 17 · <em>2 NIGHTS</em></span>
         </div>
-        <p>Zaina Lodge,深入迦納北部雨林國家公園的特色莊園,專屬嚮導帶領森林探索,是全程最貼近野性自然的住宿體驗。</p>
+        <p>深入迦納北部雨林國家公園的特色莊園,專屬嚮導帶領森林探索,是全程最貼近野性自然的住宿體驗。</p>
       </div>
 
       <div class="stay reveal">
         <div class="stay-num">N° VII</div>
-        <h4>Elmina · 海濱渡假村</h4>
+        <h4>開普海岸 · 海濱渡假村</h4>
         <div class="stay-meta">
           <span>🇬🇭 GHANA</span>
           <span>Day 18 – 20 · <em>2 NIGHTS</em></span>
         </div>
-        <p>Lemon Beach resort,鄰近卡庫姆國家公園與 Cape Coast 世界遺產奴隸堡,是探索迦納海岸歷史現場的最佳落腳處。</p>
+        <p>鄰近雨林國家公園與世界遺產奴隸堡群,是探索迦納海岸歷史現場的最佳落腳處。</p>
       </div>
 
       <div class="stay reveal">
@@ -779,7 +774,7 @@
           <span>🇬🇭 GHANA</span>
           <span>Day 20 – 21 · <em>1 NIGHT</em></span>
         </div>
-        <p>Tang Palace、African Regina、Pelican hotel——回到阿克拉進行最後採買與整理,為長途返台留下從容的尾聲。</p>
+        <p>市區四星級飯店——回到阿克拉進行最後採買與整理,為長途返台留下從容的尾聲。</p>
       </div>
 
     </div>
@@ -812,12 +807,12 @@
       <div class="exp reveal">
         <div class="exp-num">N° 03</div>
         <h4>雨林嚮導與樹冠吊橋</h4>
-        <p>從迦納北部莫宗瑞亞國家公園的專屬嚮導森林探索,到卡庫姆國家公園著名的雨林樹冠吊橋,兩種截然不同的西非雨林視角。</p>
+        <p>從迦納北部國家公園的專屬嚮導森林探索,到南部雨林國家公園著名的雨林樹冠吊橋,兩種截然不同的西非雨林視角。</p>
       </div>
       <div class="exp reveal">
         <div class="exp-num">N° 04</div>
         <h4>奴隸貿易歷史現場</h4>
-        <p>走進 Elmina Castle 與世界遺產 Cape Coast 奴隸堡,直面西非奴隸貿易留下的沉重歷史現場,是這趟旅程中最深刻的一段反思時刻。</p>
+        <p>走進世界遺產奴隸堡群,直面西非奴隸貿易留下的沉重歷史現場,是這趟旅程中最深刻的一段反思時刻。</p>
       </div>
     </div>
   </div>
@@ -839,34 +834,34 @@
       <div class="food-card reveal">
         <div class="country-label">🇧🇫 BURKINA FASO</div>
         <ul>
-          <li><span>—</span>Tropicalia 非洲歐洲自助餐</li>
-          <li><span>—</span>Local grill ouaga 2000 烤肉庭院</li>
-          <li><span>—</span>Assanka Buffet 非洲自助餐</li>
-          <li><span>—</span>Chez Simon L'experience 西式</li>
-          <li><span>—</span>渡假村內 Tintilou 西非式料理</li>
-          <li><span>—</span>香格里拉中式料理</li>
+          <li><span>—</span>非洲歐式自助餐廳</li>
+          <li><span>—</span>當地烤肉庭院餐廳</li>
+          <li><span>—</span>非洲自助餐廳</li>
+          <li><span>—</span>西式餐廳</li>
+          <li><span>—</span>渡假村內西非式料理</li>
+          <li><span>—</span>中式餐廳</li>
         </ul>
       </div>
       <div class="food-card reveal">
         <div class="country-label">🇨🇮 CÔTE D'IVOIRE</div>
         <ul>
-          <li><span>—</span>La case Bleue 當地料理</li>
-          <li><span>—</span>Mossou'o'calm 河景餐廳</li>
-          <li><span>—</span>Mamia Lagoon 非式料理</li>
-          <li><span>—</span>Le mechoui 黎巴嫩料理</li>
-          <li><span>—</span>Domaine Eden 野味餐廳</li>
-          <li><span>—</span>Le Debarcadere 湖岸龍蝦餐</li>
+          <li><span>—</span>當地特色餐廳</li>
+          <li><span>—</span>河景餐廳</li>
+          <li><span>—</span>非式料理餐廳</li>
+          <li><span>—</span>黎巴嫩料理餐廳</li>
+          <li><span>—</span>野味料理餐廳</li>
+          <li><span>—</span>湖岸龍蝦餐廳</li>
         </ul>
       </div>
       <div class="food-card reveal">
         <div class="country-label">🇬🇭 GHANA</div>
         <ul>
-          <li><span>—</span>The Buka Restaurant, Osu</li>
-          <li><span>—</span>Sky Bar 25</li>
-          <li><span>—</span>Polo beach Club</li>
-          <li><span>—</span>lemon beach restaurant</li>
-          <li><span>—</span>Anomansa Restaurant</li>
-          <li><span>—</span>Baobab House / Azmera</li>
+          <li><span>—</span>當地特色餐廳</li>
+          <li><span>—</span>頂樓酒吧餐廳</li>
+          <li><span>—</span>海灘俱樂部餐廳</li>
+          <li><span>—</span>海濱餐廳</li>
+          <li><span>—</span>當地特色餐廳</li>
+          <li><span>—</span>當地特色餐廳</li>
         </ul>
       </div>
     </div>
@@ -902,7 +897,7 @@
           <ul>
             <li>非洲內陸段機票</li>
             <li>三國簽證費用</li>
-            <li>20晚住宿(含早餐)</li>
+            <li>20 晚住宿(含早餐)</li>
             <li>全程私人包車與司機、保全</li>
             <li>每日精選道地午晚餐</li>
             <li>所有景點門票費用</li>
@@ -914,7 +909,7 @@
         <div>
           <h5>不包含項目</h5>
           <ul>
-            <li>台灣非洲國際來回機票</li> </li>
+            <li>台灣非洲國際來回機票</li>
             <li>個人護照申辦費用</li>
             <li>黃熱病疫苗等醫療費</li>
             <li>個人消費購物與酒水</li>
@@ -943,11 +938,18 @@
         </ul>
       </div>
       <div class="foot-col">
+        <h6>聯絡</h6>
+        <ul>
+          <li>Medium Sira Service</li>
+          <li>Email · hello@example.com</li>
+          <li>Phone · +886 · 替換</li>
+          <li>Instagram · @替換</li>
+          <li>LINE · @替換</li>
         </ul>
       </div>
     </div>
     <div class="foot-bot">
-      <div>© MMXXVI · West Africa Three Country Journey</div>
+      <div>© MMXXVI · Medium Sira Service</div>
       <div>Burkina Faso × Côte d'Ivoire × Ghana</div>
     </div>
   </div>
